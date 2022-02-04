@@ -16,6 +16,10 @@
             <email>dave.wichers@owasp.org</email>
         </developer>
     </developers>
+    <properties>
+        <sonar.organization>rl-devsecops-sandbox</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
 
     <licenses>
         <license>
