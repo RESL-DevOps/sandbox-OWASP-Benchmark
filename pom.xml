@@ -16,11 +16,7 @@
             <email>dave.wichers@owasp.org</email>
         </developer>
     </developers>
-    <properties>
-        <sonar.organization>rl-devsecops-sandbox</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
-
+           
     <licenses>
         <license>
             <name>GNU General Public License, version 2 (GPL2)</name>
@@ -162,6 +158,9 @@
                                         ${tomcat.jvmargs}
                                         ${tomcat.jvmargs.debug}
                                     </cargo.start.jvmargs>
+                                    <sonar.organization>rl-devsecops-sandbox</sonar.organization>
+                                    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+   
                                 </properties>
                             </configuration>
                         </configuration>
